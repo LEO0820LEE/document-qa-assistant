@@ -75,11 +75,14 @@ python main.py
 ```
 
 ## 專案結構
+
+```
 rag_project/
-├── retrieval.py # 文件切分、embedding、向量檢索邏輯
-├── generation.py # Prompt 組合、LLM 生成邏輯
-├── ingest.py # 建立向量資料庫的獨立腳本
-├── main.py # 主程式,互動式問答介面
-├── sample_doc.txt # 範例文件
-├── requirements.txt # 套件依賴清單
+├── retrieval.py       # 文件切分、embedding、向量檢索邏輯
+├── generation.py      # Prompt 組合、LLM 生成邏輯
+├── ingest.py           # 建立向量資料庫的獨立腳本
+├── main.py              # 主程式,互動式問答介面
+├── sample_doc.txt      # 範例文件
+├── requirements.txt    # 套件依賴清單
 └── README.md
+```
